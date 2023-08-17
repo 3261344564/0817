@@ -40,9 +40,9 @@
     </h2>
     <div v-show="isAlert">图片到头了!!!</div>
     <h2>
-      <button @click="changeName(1)">上一页</button>
+      <button @click="changeName(-1)">上一页</button>
       <span>{{ rotation[rotationIndex].name }}</span>
-      <button @click="changeName(2)">下一页</button>
+      <button @click="changeName(1)">下一页</button>
     </h2>
 
 
